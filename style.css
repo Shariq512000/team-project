@@ -1,4 +1,341 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Creepster&family=Itim&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rammetto+One&family=Rubik+Wet+Paint&display=swap');
+body {
+    background-color: black;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
 }
+/* * {
+  background-color: black;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 85px;
+} */
+
+header ul {
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    column-gap: 20px;
+    font-size: 11px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+header ul :hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+    color: whitesmoke;
+    text-align: left;
+    /* padding-left: 85px; */
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 16px;
+  
+}
+.com {
+  padding-left: 60px;
+}
+
+.hamza {
+padding-right: 100px;
+justify-content: space-between;
+    
+}
+
+.new-web {
+  padding-bottom: 15px;
+  /* justify-content: space-between; */
+}
+section h2 {
+   
+    text-align: start;
+    font-size: 30px;
+    /* padding-left: 85px; */
+    color: #bfc500;
+}
+section h3 {
+    color: whitesmoke;
+    text-align: start;
+    font-size: 20px;
+    /* padding-left: 85px;  */
+}
+section p {
+    color: whitesmoke;
+    text-align: left;
+    /* padding-left: 85px; */
+    font-family: sans-serif;
+}
+.container .wats{
+    color: gray;
+    padding-left: 0px;
+}
+section .bord {
+    font-size: 12px;
+    padding-right: 100px;
+}
+section .water {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 0px;
+}
+.box {
+    padding-left: 0px;
+}
+.karachi {
+    background-color: #bfc500;
+    width: auto;
+    border-radius: 10px;
+    height: 100px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.button {
+    color: #bfc500;
+    background-color: black;
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.peak {
+  width: 170px;
+}
+.button:hover {
+  background-color: aliceblue;
+  color: black;
+  font-weight: 700;
+
+}
+.new-state {
+  color:black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.zero , p{
+    color: whitesmoke;
+    text-align: left;
+    /* padding-left: 85px; */
+    font-family: sans-serif;
+}
+.power{
+    color: #bfc500;
+}
+.blue {
+    font-size: 15px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.put {
+    padding-right: 100px;
+}
+.sec3 .bio {
+   color: whitesmoke ;
+   font-family: sans-serif;
+}
+
+.sec3 {
+    display: block;
+    justify-content: space-between;
+}
+.red {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 60px;
+}
+.green {
+    display: flex;
+}
+.red p {
+    font-size: 12px;
+    padding-right: 30px;
+    color: gray;
+}
+.biology {
+     padding-right: 45px;
+}
+.intel {
+    color: whitesmoke;
+    font-family: sans-serif;
+
+}
+.para {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    padding-top: 20px;
+}
+.car {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.pen {
+    color: #bfc500;
+    text-align: left;
+    font-size: 27px;
+    /* padding-left: 85px; */
+    display: block;
+    
+}
+.apple {
+    font-size: 14px;
+    padding-top: 27px;
+}
+.pak {
+    display: flex;
+    column-gap: 50px;
+}
+.last-picture {
+    background-color: #bfc500;
+    width: 200px;
+    height: 300px;
+    padding-right: 100px;
+}
+.xpic{
+  width:280px;
+}
+.tool {
+  width:162px
+}
+.xweb {
+  width:300px
+}
+.xall{
+  width: 1700px;
+}
+.main-pen {
+    display: flex;
+    justify-content: space-between;
+}
+/* Base styles for all devices */
+
+body {
+  background-color: black;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 85px;
+}
+
+/* Base styles for all devices */
+body {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+  }
+  
+  /* Small devices (mobile phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    body {
+      padding: 0px;
+    }
+  
+    header ul {
+      font-size: 10px;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 5px;
+    }
+  
+    .container {
+      flex-direction: column;
+      text-align: center;
+      font-size: 10px;
+    }
+  
+    .karachi {
+      padding: 4px;
+      height: auto;
+      text-align: center;
+    }
+  
+    .button {
+      width: 100%;
+      font-size: 10px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and down) */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+      flex-direction: column;
+    }
+  
+    .karachi {
+      padding: 20px;
+    }
+  
+    header ul {
+      font-size: 12px;
+      column-gap: 15px;
+    }
+  
+    .button {
+      width: 150px;
+      font-size: 15px;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .container {
+      padding-left: 85px;
+      padding-right: 100px;
+      font-size: 16px;
+    }
+  
+    header ul {
+      font-size: 14px;
+      column-gap: 20px;
+    }
+  
+    .karachi {
+      padding-left: 120px;
+      padding-right: 120px;
+    }
+  
+    .button {
+      width: 200px;
+      font-size: 16px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .container {
+      font-size: 18px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  
+    .button {
+      font-size: 18px;
+    }
+  }
+  
